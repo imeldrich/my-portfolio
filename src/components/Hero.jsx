@@ -35,9 +35,9 @@ const Hero = () => {
             Projects
           </a>
 
-          <button className="px-5 py-2 border border-white rounded-lg hover:bg-white hover:text-black transition-colors">
+          <a href='#contacts' className="px-5 py-2 border border-white rounded-lg hover:bg-white hover:text-black transition-colors">
             Hire me
-          </button>
+          </a>
         </div>
 
         <div className="flex gap-5 mt-6 text-xl">

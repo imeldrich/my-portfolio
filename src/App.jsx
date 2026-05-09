@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="bg-linear-to-b from-blue-950 to-gray-900 text-white min-h-screen font-mono space-y-10 select-none">
+      <div className="bg-linear-to-b from-blue-950 to-gray-900 text-white min-h-screen min-w-md font-mono space-y-10 select-none">
         <Navbar />
         <Hero />
         <Projects />
