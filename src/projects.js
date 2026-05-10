@@ -17,7 +17,7 @@ const projects = [
     name: "To-do List App",
     img: todolist,
     description:
-      "A fun and interactive dice game built with React that demonstrates state management, conditional rendering, and dynamic gameplay.",
+      "A responsive to-do list application built with React and Tailwind CSS that allows users to add, edit, delete, and save tasks using LocalStorage.",
     techstack: ["react", "tailwind css", 'local storage'],
     link: "https://todo-list-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/todo-list",
