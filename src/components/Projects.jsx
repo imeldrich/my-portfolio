@@ -2,8 +2,8 @@ import projects from "../projects";
 
 const Projects = () => {
   return (
-    <section className="py-10 px-4 sm:px-6 lg:px-10">
-      <h2 id="projects" className="text-2xl font-bold text-center mb-6">
+    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-10">
+      <h2 className=" text-lg text-blue-400 font-semibold tracking-widest uppercase text-center mb-6">
         Projects
       </h2>
 
