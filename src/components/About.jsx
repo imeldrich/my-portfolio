@@ -15,15 +15,15 @@ const About = () => {
         </p>
 
         <p>
-          I enjoy crafting clean and modern interfaces using React and Tailwind
-          CSS, with a strong focus on usability, performance, and smooth user
-          experience.
+          I enjoy crafting clean and modern interfaces using React, TypeScript,
+          and Tailwind CSS, with a strong focus on usability, performance, and
+          smooth user experience.
         </p>
 
         <p>
-          My current skills include HTML, CSS, JavaScript, React, and Tailwind
-          CSS. I’m continuously improving my knowledge in modern web
-          development, exploring best practices, and building real-world
+          My current skills include HTML, CSS, JavaScript, TypeScript, React,
+          and Tailwind CSS. I’m continuously improving my knowledge in modern
+          web development, exploring best practices, and building real-world
           projects to sharpen my skills.
         </p>
 

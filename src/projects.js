@@ -1,9 +1,12 @@
 import tenzies from "./images/tenzies.png";
 import todolist from "./images/todo-list.png";
+import assembly from "./images/assembly.png";
+
+let nextProjId = 1
 
 const projects = [
   {
-    id: 1,
+    id: nextProjId++,
     name: "Tenzies App",
     img: tenzies,
     description:
@@ -13,7 +16,7 @@ const projects = [
     repo: "https://github.com/imeldrich/tenzies-app",
   },
   {
-    id: 2,
+    id: nextProjId++,
     name: "To-do List App",
     img: todolist,
     description:
@@ -21,6 +24,16 @@ const projects = [
     techstack: ["react", "tailwind css", 'local storage'],
     link: "https://todo-list-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/todo-list",
+  },
+  {
+    id: nextProjId++,
+    name: "Assembly Game",
+    img: assembly,
+    description:
+      "Assembly: Endgame is a React, TypeScript, and CSS word-guessing game where players try to guess the hidden word before running out of attempts.",
+    techstack: ["react", "typescript", 'css'],
+    link: "https://assembly-game-eldrich.vercel.app",
+    repo: "https://github.com/imeldrich/assembly-game",
   },
 ];
 

@@ -19,8 +19,8 @@ const Hero = () => {
 
         <p className="mt-4 text-gray-300 leading-relaxed">
           Hi, I’m an aspiring frontend developer passionate about creating
-          simple, user-friendly, and responsive web applications using React and
-          Tailwind CSS.
+          simple, user-friendly, and responsive web applications using React,
+          TypeScript, and Tailwind CSS.
         </p>
 
         <div className="flex gap-4 mt-6">
