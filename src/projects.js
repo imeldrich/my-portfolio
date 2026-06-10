@@ -1,6 +1,7 @@
 import tenzies from "./images/tenzies.png";
 import todolist from "./images/todo-list.png";
 import assembly from "./images/assembly.png";
+import foodcart from "./images/foodcart.png";
 
 let nextProjId = 1
 
@@ -34,6 +35,16 @@ const projects = [
     techstack: ["react", "typescript", 'css'],
     link: "https://assembly-game-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/assembly-game",
+  },
+  {
+    id: nextProjId++,
+    name: "Food Cart",
+    img: foodcart,
+    description:
+      "A React, TypeScript, and Tailwind CSS shopping cart application where users can add products, adjust quantities, remove items, and view a dynamically updated total price in a responsive sliding cart interface.",
+    techstack: ["react", "typescript", 'tailwind css'],
+    link: "https://ordering-system-eldrich.vercel.app",
+    repo: "https://github.com/imeldrich/ordering-system",
   },
 ];
 
