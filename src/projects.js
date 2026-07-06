@@ -3,7 +3,7 @@ import todolist from "./images/todo-list.png";
 import assembly from "./images/assembly.png";
 import foodcart from "./images/foodcart.png";
 
-let nextProjId = 1
+let nextProjId = 1;
 
 const projects = [
   {
@@ -22,7 +22,7 @@ const projects = [
     img: todolist,
     description:
       "A responsive to-do list application built with React and Tailwind CSS that allows users to add, edit, delete, and save tasks using LocalStorage.",
-    techstack: ["react", "tailwind css", 'local storage'],
+    techstack: ["react", "tailwind css", "local storage"],
     link: "https://todo-list-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/todo-list",
   },
@@ -31,8 +31,8 @@ const projects = [
     name: "Assembly Game",
     img: assembly,
     description:
-      "Assembly: Endgame is a React, TypeScript, and CSS word-guessing game where players try to guess the hidden word before running out of attempts.",
-    techstack: ["react", "typescript", 'css'],
+      "Assembly: Endgame is a word-guessing game built with React, TypeScript, and CSS. The project was already built in JavaScript, and I converted it to TypeScript to practice static typing by adding types for props and state while resolving type errors.",
+    techstack: ["react", "typescript", "css"],
     link: "https://assembly-game-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/assembly-game",
   },
@@ -42,7 +42,7 @@ const projects = [
     img: foodcart,
     description:
       "A React, TypeScript, and Tailwind CSS shopping cart application where users can add products, adjust quantities, remove items, and view a dynamically updated total price in a responsive sliding cart interface.",
-    techstack: ["react", "typescript", 'tailwind css', 'express js'],
+    techstack: ["react", "typescript", "tailwind css", "express js"],
     link: "https://ordering-system-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/ordering-system",
   },
