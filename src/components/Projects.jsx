@@ -12,7 +12,7 @@ const Projects = () => {
           return (
             <div
               key={proj.id}
-              className="bg-[#1e293b] rounded-2xl overflow-hidden shadow-lg border border-slate-700 hover:-translate-y-2 transition-transform duration-300"
+              className="bg-[#1e293b] rounded-2xl overflow-hidden shadow-lg border border-slate-700 hover:-translate-y-2 transition-transform duration-300 flex flex-col h-full"
             >
               <img
                 src={proj.img}
@@ -20,7 +20,7 @@ const Projects = () => {
                 className="w-full h-64 object-cover"
               />
 
-              <div className="p-6 flex flex-col gap-4">
+              <div className="p-6 flex flex-col flex-1 gap-4">
                 <h3 className="text-xl font-bold">{proj.name}</h3>
 
                 <p className="text-gray-300 leading-relaxed">
@@ -39,7 +39,7 @@ const Projects = () => {
                     );
                   })}
                 </div>
-                <div className="flex flex-col lg:flex-row gap-4">
+                <div className="flex flex-col mt-auto lg:flex-row gap-4">
                   <a
                     href={proj.link}
                     target="_blank"
