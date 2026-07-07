@@ -42,7 +42,7 @@ const projects = [
     img: foodcart,
     description:
       "A React, TypeScript, and Tailwind CSS shopping cart application where users can add products, adjust quantities, remove items, and view a dynamically updated total price in a responsive sliding cart interface.",
-    techstack: ["react", "typescript", "tailwind css", "express js"],
+    techstack: ["react", "typescript", "tailwind css", "express js", "mongodb"],
     link: "https://ordering-system-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/ordering-system",
   },
