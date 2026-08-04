@@ -5,37 +5,49 @@ const About = () => {
       className="flex flex-col py-20 px-4 sm:px-6 lg:px-10 max-w-6xl mx-auto"
     >
       <h2 className="text-lg text-blue-400 font-semibold tracking-widest uppercase text-center mb-6">
-        Get to Know Me
+        About Me
       </h2>
 
-      <div className="bg-[#1e293b] p-6 sm:p-10 rounded-2xl shadow-lg border border-slate-700 space-y-4 leading-relaxed text-gray-300">
+      <div className="bg-[#1e293b] p-6 sm:p-10 rounded-2xl shadow-lg border border-slate-700 space-y-5 leading-relaxed text-gray-300">
         <p>
-          Hi! I’m Eldrich Salonga, an aspiring frontend developer focused on
-          building responsive, accessible, and user-friendly web applications.
+          Hi! I'm{" "}
+          <span className="font-semibold text-white">
+            Eldrich Salonga
+          </span>
+          , a Computer Science graduate passionate about technology, problem
+          solving, and building reliable software solutions.
         </p>
 
         <p>
-          I enjoy crafting clean and modern interfaces using React, TypeScript,
-          and Tailwind CSS, with a strong focus on usability, performance, and
-          smooth user experience.
+          I build responsive web applications using{" "}
+          <span className="text-white">
+            React, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB, and
+            REST APIs
+          </span>
+          . I enjoy developing both frontend interfaces and backend services
+          while writing clean, maintainable, and scalable code.
         </p>
 
         <p>
-          My current skills include HTML, CSS, JavaScript, TypeScript, React,
-          and Tailwind CSS. I’m continuously improving my knowledge in modern
-          web development, exploring best practices, and building real-world
-          projects to sharpen my skills.
+          My projects include developing RESTful APIs for user authentication,
+          product management, and user processing, integrating the frontend
+          with a Node.js, Express.js, and MongoDB backend.
         </p>
 
         <p>
-          My goal is to grow into a full-stack developer and contribute to
-          impactful applications that solve real problems and create meaningful
-          user experiences.
+          During my IT Technician internship, I gained hands-on experience in
+          computer troubleshooting, operating system installation, software
+          configuration, hardware maintenance, and basic LAN network setup,
+          strengthening both my technical and problem-solving skills.
         </p>
 
         <p>
-          I’m currently open to learning opportunities, collaborations, and
-          projects that will help me grow as a developer and improve my craft.
+          I'm always eager to learn new technologies, improve my skills, and
+          take on new challenges. I'm currently seeking opportunities in{" "}
+          <span className="font-semibold text-white">
+            IT Support, Technical Support, or Junior Software Development
+          </span>{" "}
+          where I can contribute, continue learning, and grow professionally.
         </p>
       </div>
     </section>

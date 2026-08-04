@@ -1,6 +1,5 @@
 import tenzies from "./images/tenzies.png";
 import todolist from "./images/todo-list.png";
-import assembly from "./images/assembly.png";
 import foodcart from "./images/foodcart.png";
 
 let nextProjId = 1;
@@ -28,20 +27,10 @@ const projects = [
   },
   {
     id: nextProjId++,
-    name: "Assembly Game",
-    img: assembly,
-    description:
-      "Assembly: Endgame is a word-guessing game built with React, TypeScript, and CSS. The project was already built in JavaScript, and I converted it to TypeScript to practice static typing by adding types for props and state while resolving type errors.",
-    techstack: ["react", "typescript", "css"],
-    link: "https://assembly-game-eldrich.vercel.app",
-    repo: "https://github.com/imeldrich/assembly-game",
-  },
-  {
-    id: nextProjId++,
     name: "Food Cart",
     img: foodcart,
     description:
-      "A React, TypeScript, and Tailwind CSS shopping cart application where users can add products, adjust quantities, remove items, and view a dynamically updated total price in a responsive sliding cart interface.",
+      "A full-stack restaurant ordering system built with React, TypeScript, Tailwind CSS, Node.js, Express.js, and MongoDB. Features product management, REST APIs, JWT authentication, and a responsive user interface.",
     techstack: ["react", "typescript", "tailwind css", "express js", "mongodb"],
     link: "https://ordering-system-eldrich.vercel.app",
     repo: "https://github.com/imeldrich/ordering-system",
