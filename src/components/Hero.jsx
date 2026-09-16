@@ -32,9 +32,9 @@ const Hero = () => {
               sequence={[
                 "Computer Science Graduate",
                 2000,
-                "Full-Stack Developer",
-                2000,
                 "IT Support",
+                2000,
+                "Web Development",
                 2000,
               ]}
               wrapper="span"
@@ -46,10 +46,7 @@ const Hero = () => {
         </p>
         
         <p className="mt-4 text-gray-300 leading-relaxed">
-          I build responsive web applications using React, TypeScript, Node.js,
-          Express.js, and MongoDB. I also have hands-on experience in IT
-          support, including computer troubleshooting, software installation,
-          and basic network configuration.
+         I provide IT support for computer hardware, software, Windows systems, and basic networking. I also have experience in frontend and backend development using React, TypeScript, Node.js, Express.js, and MongoDB.
         </p>
 
         <div className="flex gap-4 mt-6">

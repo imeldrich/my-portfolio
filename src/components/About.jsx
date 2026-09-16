@@ -14,40 +14,47 @@ const About = () => {
           <span className="font-semibold text-white">
             Eldrich Salonga
           </span>
-          , a Computer Science graduate passionate about technology, problem
-          solving, and building reliable software solutions.
+          , a Computer Science graduate with hands-on experience in IT support,
+          troubleshooting, and basic networking.
         </p>
 
         <p>
-          I build responsive web applications using{" "}
+          During my IT Technician internship, I gained practical experience in
           <span className="text-white">
-            React, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB, and
-            REST APIs
+            {" "}computer hardware and software troubleshooting, Windows
+            installation and configuration, software installation, preventive
+            maintenance, and basic LAN setup.
           </span>
-          . I enjoy developing both frontend interfaces and backend services
-          while writing clean, maintainable, and scalable code.
         </p>
 
         <p>
-          My projects include developing RESTful APIs for user authentication,
-          product management, and user processing, integrating the frontend
-          with a Node.js, Express.js, and MongoDB backend.
-        </p>
-
-        <p>
-          During my IT Technician internship, I gained hands-on experience in
-          computer troubleshooting, operating system installation, software
-          configuration, hardware maintenance, and basic LAN network setup,
-          strengthening both my technical and problem-solving skills.
-        </p>
-
-        <p>
-          I'm always eager to learn new technologies, improve my skills, and
-          take on new challenges. I'm currently seeking opportunities in{" "}
-          <span className="font-semibold text-white">
-            IT Support, Technical Support, or Junior Software Development
+          I also have knowledge of{" "}
+          <span className="text-white">
+            TCP/IP, DNS, DHCP, and Windows networking commands
           </span>{" "}
-          where I can contribute, continue learning, and grow professionally.
+          such as <span className="text-white">ipconfig, ping, tracert,</span>{" "}
+          and <span className="text-white">nslookup</span>. I enjoy
+          troubleshooting technical problems and learning how systems and
+          networks work.
+        </p>
+
+        <p>
+          In addition to IT support, I have experience in{" "}
+          <span className="text-white">
+            frontend and backend web development
+          </span>{" "}
+          using React, TypeScript, Tailwind CSS, Node.js, Express.js, and
+          MongoDB. I have applied these skills in building full-stack projects
+          with RESTful APIs and authentication.
+        </p>
+
+        <p>
+          I'm a fast learner who is willing to improve and develop my technical
+          skills. I'm currently seeking opportunities in{" "}
+          <span className="font-semibold text-white">
+            IT Support or Technical Support
+          </span>{" "}
+          where I can contribute, gain experience, and grow professionally.
         </p>
       </div>
     </section>
