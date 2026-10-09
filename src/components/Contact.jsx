@@ -78,7 +78,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/eldrich-salonga"
+              href="https://www.linkedin.com/in/eldrichsalonga"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#0f172a] border border-slate-700 hover:bg-slate-700 transition-colors px-6 py-3 rounded-full font-semibold"
